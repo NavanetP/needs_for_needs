@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta data-rh="true" charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <title>NEEDS_FOR_NEEDS</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel = "icon" href = "images.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body> 
+        <script src="main.js" type="module">  
+        </script>  
+    <header>
+
+    <div class="header" id="myHeader">
+        <a href="#" class="logo">N&#x2260N</a>
+        <nav class="nav-items">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+      
+          <button onclick="document.getElementById('login-box').style.display='block'" style="width:auto;">Login</button>
+  
+          <div id="login-box" class="modal">
+            <div class="left">
+              <span onclick="document.getElementById('login-box').style.display='none'" class="close" title="Close Modal">&times;</span>
+         
+              
+              <form>
+                <div class="container">
+                    <h1>Register</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+            
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            
+                    <label><b>Password</b></label>
+                    <input type="password" placeholder="Password" name="psw" id="psw" required>
+            
+                    <hr>
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+            
+                    <button type="button" id="submitData" name="submitData" class="registerbtn">Register</button>
+                </div>
+            
+                <div class="container signin">
+                    <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+              </form>
+         
+         
+        </body>
+	
+
+       
+          
+          
+          
+             
+              
+          
+      </header>
+      <main>
+       
+        <div class="intro">
+           <h1>NEEDS FOR NEEDS</h1> 
+          <p>“The best way to find yourself is to lose yourself in the service of others.”
+           <br> -MAHATMA GANDHI <br></p>
+        </div>
+        <div class="clock">
+          <div class="time"></div>
+          <div class="date-time"></div>
+        </div>
+        <div class="achievements">
+          <div class="work">
+            <i type="button" class="tablinks" onclick="openCity(event, 'London')" class="fas fa-atom">&#128526</i>
+            <p class="work-heading">USER 01</p>
+            <p class="work-text">ADMIN</p>
+          </div>
+          <div class="work">
+            <i class="fas fa-skiing">&#127957</i>
+            <p class="work-heading">USER 02</p>
+            <p class="work-text">BANKRUPT</p>
+          </div>
+          <div class="work">
+            <i class="fas fa-ethernet">&#128181</i>
+            <p class="work-heading">USER 03 </p>
+            <p class="work-text">FUNDER</p>
+          </div>
+          <div class="work">
+            <i class="fas fa-ethernet">&#128666</i>
+            <p class="work-heading">USER 04 </p>
+            <p class="work-text">DOMINAR</p>
+          </div>
+        </div>
+        </div>
+        <div class="clock">
+          <div class="time"></div>
+          <div class="date-time"></div>
+        </div>
+        <div class="clearfix">
+        <div class="centerqr">
+        <img src="needs-for-needs__qrcode.png">
+        <h7><br>QR-CODE for donating money<br></h7>
+        <p>(or)</p>
+        <a href="https://donorbox.org/needs-for-needs">PAY HERE</a>
+        
+      </div>
+    </div>
+    <div class="whatsapp"> 
+    <a href="https://app.wotnot.io/bot-preview/7RRMYghZDuqY085738532784ipnmeV5F"><img src="attachment_91476002.png"  style="width:42px;height:42px;position:absolute"></a>
+    </div>
+        <p>   
+          --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          
+          
+                      </p>
+        <div class="about-me">
+          <div class="about-me-text">
+          <h1>               </h1>
+            
+            <p><h2>About Neede for Needs:</h2>Rich people should give a certain portion of their wealth to the poor out of moral responsibility not as a compulsion or forcefully.This will surely help in eradicating poverty across the world, increase the level of education and awareness and prevent people from dying due to lack of food and basic necessity.A fundraising event (also called a fundraiser) is an event or campaign whose primary purpose is to raise money for a cause, charity or non-profit organization.</p>
+          </div>
+          <img src="pexels-photo-6266670.jpg">
+        </div>
+       
+      </main>
+      <footer class="footer">
+       
+        <div class="copy">&copy; 2023 Needs for Needs, Inc.</div>
+        <br class="bottom-links">
+          <br class="links">
+            <span>More Info</span>
+            <a href="#" style="color:black">Home</a>
+            <a href="#" style="color:black">About</a>
+            <a href="#" style="color:black">Contact</a>
+          </br>
+          <br class="links">
+            <span>Social Links</span>
+            <a href="#" style="color: #3B5998"><i class="fa fa-facebook"></i></a>
+            <a href="#" style="color:#bb0000"><i class="fa fa-youtube"></i></a>
+            <a href="#" style="color:#f7f7f7"><i class="fa fa-instagram"></i></a>
+            <a href="#" style="color:#55ACEE"><i class="fa fa-twitter"></i></a>
+            <a href="#" style="color:#ff5700"><i class="fa fa-reddit"></i></a> 
+            <a href="#" style="color:#0088cc"><i class="fa fa-telegram"></i></a>
+          </br>
+      </footer>
+      
+      <div class="cookie-consent">
+        <span onclick="document.getElementById('cookie-consent').style.display='none'" class="close" title="Close Modal">&times;</span>
+        
+        <i type="button" class="tablinks" onclick="openCity(event, 'London')" class="fas fa-atom">&#128526</i>
+        <span>This site uses cookies to enhance user experience. see<a href="#" class="ml-1 text-decoration-none">Privacy policy</a> </span>
+        <div class="mt-2 d-flex align-items-center justify-content-center g-2">
+          <button class="allow-button">Allow cookies</button>
+          <button class="allow-button">cancel</button>
+        </div>
+      
+       
+      </div>
+      <div class="whatsapp"> 
+        <a href="https://wa.me/919894571444">
+          <img src="whatsapp.webp" width="100" position="right">
+        </a>
+      </div>
+      <script src="https://app.wotnot.io/chat-widget/4dXc9aPiJnMi165945995614vRgYw8If.js" defer></script>
+  </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.18.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+     src="https://app.wotnot.io/chat-widget/4dXc9aPiJnMi165945995614vRgYw8If.js" 
+  </script>
+<script src="https://app.wotnot.io/chat-widget/4dXc9aPiJnMi165945995614vRgYw8If.js" defer></script>
+</html>
